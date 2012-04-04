@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<package>
+	<name>Simple pages</name>
+	<alias>simplepages</alias>
+	<component_spec_file>simplepages.xml</component_spec_file>
+	<modules_spec_files>
+		<module_spec_file>ipsumbox.xml</module_spec_file>
+	</modules_spec_files>
+	<database_file>simplepages.sql</database_file>
+</package>

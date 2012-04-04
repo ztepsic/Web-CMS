@@ -1,0 +1,230 @@
+/*
+ *
+ * RESET
+ *
+ */
+*, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: none;
+}
+
+address, caption, cite, code, dfn, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+caption, th {
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+
+body {
+    background: #386CA5;
+    color: #f4f4f4;
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+
+/* -------------------------------- Link styles -------------------------------- */
+a:link, a:visited {
+    text-decoration: none;
+    color: #1d96b8;
+}
+
+a:hover {
+    color: #f87100;
+}
+
+a, a:focus, a:link, a:active {
+    outline: none;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+h1 {
+    color: #F4F4F4;
+    font-size: 2em;
+	text-align: center;
+	margin: 10px;
+    line-height: 1em;
+}
+
+h2 {
+    display: block;
+    color: #F4F4F4;
+    line-height: 1em;
+	margin: 5px;
+}
+
+
+p {
+    margin: 15px 0;
+}
+
+li {
+    margin: 0 0 0 25px;
+    font-size: inherit;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+/******************************
+ *
+ * MAIN SITE STRUCTURE
+ *
+ *****************************/
+#main-frame {
+    width: 811px;
+	min-height: 560px;
+    margin: 0px auto;
+	padding: 50px 0 0 0;
+	background: url(../../img/admin/admin_login_bg.jpg) no-repeat;
+}
+
+
+#login-frame-top,
+#login-frame-middle,
+#login-frame-bottom {
+	width: 375px;
+	margin: 0px auto;
+}
+
+#login-frame-top {
+	background: url(../../img/admin/admin_login_frame_top.jpg) no-repeat;
+	min-height: 359px;
+}
+
+#login-frame-bottom {
+	background: url(../../img/admin/admin_login_frame_bottom.jpg) no-repeat;
+	height: 21px;
+}
+
+#login-frame-middle {
+	background: url(../../img/admin/admin_login_frame_middle.jpg) repeat-y;
+
+}
+
+#login-frame-top .content {
+	padding: 10px;
+}
+
+
+textarea { overflow: auto; }
+
+form#login-form input#username,
+form#login-form input#password {
+	border: 3px solid #27A9D7;
+	background: #F4F4F4;
+	padding: .2em 3px;
+	margin: 5px 10px;
+	float: left;
+	width: 320px;
+	color: black;
+	font: 2em Arial, Helvetica, sans-serif;
+}
+
+form#login-form input#autologin {
+	border: 3px solid #27A9D7;
+	background: #F4F4F4;
+	padding: .2em 3px;
+	margin: 5px 10px;
+	float: left;
+	color: black;
+}
+
+
+label {
+	clear: left;
+	float: left;
+	margin: 5px 10px;
+	border-width: 1px 0;
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 120%;
+	color: #B9DDEA;
+	cursor: pointer;
+}
+
+form#login-form input#username:focus,
+form#login-form input#password:focus {
+	background: #e3e3e3;
+}
+
+
+
+.error {
+	margin: 20px 0px;
+	border: 3px solid #27A9D7;
+	background: #0493C2;
+}
+
+
+input.button {
+	width: auto !important;
+	margin-left: 100px;
+	cursor: pointer;
+}
+
+#loginBtn {
+	float:right;
+	margin-right: 10px;
+}
+
+
+
+legend { display: none; }
+
+fieldset {
+	margin-bottom: 1em;
+	text-align: left;
+}
+
+
+
+
+
+label em {
+	color: #F66000;
+	font-size: 95%;
+	font-style: normal;
+	color: #0089b3;
+}
+
+
+
+small.error,
+label.error,
+label.error em {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+
+
+
+
+

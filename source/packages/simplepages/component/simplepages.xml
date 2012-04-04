@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component>
+	<name>Simple pages</name>
+	<description>Jednostavne stranice</description>
+	<alias>simplepages</alias>
+	<allow_instances>0</allow_instances>
+	<admin>0</admin>
+	<methods>
+		<method>
+			<name>index</name>
+			<params>1</params>
+			<back>0</back>
+			<description>glavna index metoda</description>
+			<route>simplepages/index/$1</route>
+			<url>{method}</url>
+			<pattern>^{controller}/{method}/{$1}$</pattern>
+		</method>
+	</methods>
+</component>

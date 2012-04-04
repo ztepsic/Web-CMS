@@ -1,0 +1,207 @@
+/*
+ *
+ * RESET
+ *
+ */
+*, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: none;
+}
+
+address, caption, cite, code, dfn, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+caption, th {
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+
+body {
+    background: #ffffff;
+    color: #000000;
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+
+/* -------------------------------- Link styles -------------------------------- */
+a:link, a:visited {
+    text-decoration: none;
+    color: #1d96b8;
+}
+
+a:hover {
+    color: #f87100;
+}
+
+a, a:focus, a:link, a:active {
+    outline: none;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+h1 {
+    color: #F4F4F4;
+    font-size: 2em;
+	padding: 10px;
+    line-height: 1em;
+}
+
+h2 {
+    display: block;
+    color: #F4F4F4;
+    line-height: 1em;
+	margin: 5px;
+}
+
+
+p {
+    margin: 15px 0;
+}
+
+li {
+    margin: 0 0 0 25px;
+    font-size: inherit;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatleft {
+    float: left;
+}
+/******************************
+ *
+ * MAIN SITE STRUCTURE
+ *
+ *****************************/
+
+#header {
+	background: #048fc2;
+}
+
+#title-holder {
+	background: url(../../img/admin/admin_title_holder_bg.jpg) repeat-x;
+	height: 69px;
+
+}
+
+#footer {
+	height: 75px;
+}
+
+.main-frame {
+	width: 960px;
+    margin: 0 auto;
+}
+
+.main-frame table th,
+.main-frame table td {
+	padding: 5px;
+}
+
+.main-frame table th {
+	font-weight: bold;
+}
+
+ul { list-style-type: none; }
+
+#account ul li {
+	display: inline;
+	margin: 0px;
+	 color: #F4F4F4;
+}
+
+#account ul li a {
+	 color: #F4F4F4;
+	 font-weight: bold;
+}
+
+#main-navigation-top {
+	margin-top: 20px;
+}
+
+
+#main-navigation-top ul {
+	float: left;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-navigation-top ul li {
+	float: left;
+	margin: 0px;
+	background: #0e9dd2;
+	border: 1px #2eaad8 solid;
+}
+
+#main-navigation-top ul li a {
+	background: #0e9dd2;
+	padding: 0 10px;
+	text-align: center;
+	font: 12px Arial;text-decoration:none;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+#main-navigation-top ul li.selected {
+	background: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+#main-navigation-top ul li.selected:hover {
+	border: 1px #2eaad8 solid;
+}
+
+
+#main-navigation-top ul li.selected a {
+	background: #ffffff;
+	color: #0e9dd2;
+}
+
+#main-navigation-top ul li a:hover {
+	background: #00afe3;
+	float: left;
+	padding: 0 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 30px;
+}
+
+#title-holder h2 {
+	padding: 20px;
+	color: #515151;
+	font-size: 1.8em;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module>
+	<name>Ipsum box</name>
+	<description>ipsum box</description>
+	<alias>ipsumbox</alias>
+	<allow_instances>1</allow_instances>
+	<admin>0</admin>
+</module>

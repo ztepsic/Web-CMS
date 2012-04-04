@@ -1,0 +1,5 @@
+# Web content management system
+
+Within this thesis the reader is introduced to the concept of Web 2.0 and the problem of content management, lack of authorization, the problem of development and maintenance of a website. A web content management system is presented as a solution, which is to decrease unproductive activities associated with typical web application development. Both the concept and implementation of a programming environment for development of dynamic websites, services and applications are described within this thesis through the core of the content management system, user authentication, access control and system expansions. Instructions for installation of computer applications that run this web application (web servers) are also given, as well as the description of installation and setup of the web application itself. Directions for using the content management system are presented, as well as the directions for expanding the existing system.
+
+**Keywords**: application, web, Internet, CMS, system, database, mysql, php, codeigniter, framework, management

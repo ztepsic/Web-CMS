@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component>
+	<name>Admin - Simple pages</name>
+	<description>Jednostavne stranice</description>
+	<alias>simplepages</alias>
+	<allow_instances>0</allow_instances>
+	<admin>1</admin>
+	<methods>
+		<method>
+			<name>index</name>
+			<params>0</params>
+			<back>0</back>
+			<description>glavna index metoda</description>
+			<route>admin/simplepages/index</route>
+			<pattern>^admin/simplepages$</pattern>
+		</method>
+		<method>
+			<name>simplepage_create</name>
+			<params>0</params>
+			<back>0</back>
+			<description>stvaranje stranica</description>
+			<route>admin/simplepages/simplepage_create</route>
+			<pattern>^admin/simplepages/simplepage_create$</pattern>
+		</method>
+		<method>
+			<name>simplepage_edit</name>
+			<params>1</params>
+			<back>0</back>
+			<description>uredivanje stranica</description>
+			<route>admin/simplepages/simplepage_edit/$1</route>
+			<pattern>^admin/simplepages/simplepage_edit/([0-9]+)$</pattern>
+		</method>
+		<method>
+			<name>simplepage_delete</name>
+			<params>1</params>
+			<back>1</back>
+			<description>brisanje stranica</description>
+			<route>admin/simplepages/simplepage_delete/$1</route>
+			<pattern>^admin/simplepages/simplepage_delete/([0-9]+)$</pattern>
+		</method>
+	</methods>
+</component>
